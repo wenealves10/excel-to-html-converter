@@ -1,0 +1,20 @@
+{
+  "name": "excel-to-html-converter",
+  "version": "1.0.0",
+  "description": "Excel to html and pdf converter via command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenealves10/excel-to-html-converter.git"
+  },
+  "keywords": [],
+  "author": "Wene Alves de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenealves10/excel-to-html-converter/issues"
+  },
+  "homepage": "https://github.com/wenealves10/excel-to-html-converter#readme"
+}
