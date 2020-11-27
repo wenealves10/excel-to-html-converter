@@ -1,7 +1,7 @@
 class DataManipulation{
    
     static Process(data){
-        const database = data.split('\n')
+        const database = data.split('\r\n')
         return database
     }
 }
