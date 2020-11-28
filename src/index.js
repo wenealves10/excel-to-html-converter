@@ -1,10 +1,14 @@
 const Reader = require('../Reader/Reader')
 const dataManipulation = require('../Data-manipulation/DataManipulation')
 const Table = require('../Table/Table')
+const EjsParser = require('../EjsParser/EjsParser')
+async function main() {
+    const read = new Reader()
+    let date = read.read(__dirname + '/../escola.csv')
+    let databases = dataManipulation.Process(date)
+    const list = new Table(databases)
+    const html = await EjsParser.Parser(list)
+    console.log(html)
+}
 
-const read = new Reader()
-
-let date = read.read(__dirname+'/../escola.csv')
-let databases = dataManipulation.Process(date)
-const list = new Table(databases)
-
+main()
