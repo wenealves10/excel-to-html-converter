@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/wenealves10/excel-to-html-converter#readme",
   "dependencies": {
-    "ejs": "^3.1.5"
+    "ejs": "^3.1.5",
+    "html-pdf": "^2.2.0"
   }
 }
