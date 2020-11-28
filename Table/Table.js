@@ -1,15 +1,15 @@
-class Table{
-    constructor(date){
+class Table {
+    constructor(date) {
         this.header = date[0]
         date.shift()
         this.body = date
     }
 
-    get CountRow(){
+    get CountRow() {
         return this.body.length
     }
 
-    get CountColumn(){
+    get CountColumn() {
         return this.header.length
     }
 }

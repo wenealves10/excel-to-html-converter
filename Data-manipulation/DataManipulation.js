@@ -1,6 +1,6 @@
-class DataManipulation{
-   
-    static Process(data){
+class DataManipulation {
+
+    static Process(data) {
         const database = data.split('\r\n')
         const rows = []
 
